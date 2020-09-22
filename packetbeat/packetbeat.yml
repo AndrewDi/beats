@@ -101,6 +101,12 @@ packetbeat.protocols:
     - 8883  # Secure MQTT
     - 9243  # Elasticsearch
 
+- type: drda
+  # Configure the ports where to listen for DRDA traffic. You can disable
+  # the DRDA protocol by commenting out the list of ports.
+  # DRDA is used by DB2, Apache Derby and Informix.
+  ports: [50000]
+
 # ======================= Elasticsearch template setting =======================
 
 setup.template.settings:

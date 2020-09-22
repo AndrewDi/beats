@@ -18,3 +18,4 @@
  - Memcache
  - NFS
  - TLS
+ - DRDA (DB2, Informix, Derby)
