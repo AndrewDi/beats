@@ -1,0 +1,13 @@
+- key: drda
+  title: "DRDA"
+  description: >
+    DRDA-specific event fields.
+  fields:
+    - name: drda.responses
+      type: dict
+      description: >
+          The response data structure (DDM and Parameters)
+    - name: drda.requests
+      type: dict
+      description: >
+          The request data structure (DDM and Parameters)
